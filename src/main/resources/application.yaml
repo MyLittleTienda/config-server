@@ -2,6 +2,7 @@ server:
   port: 8888
 spring:
   cloud:
+    appId: mlt-config-server
     config:
       server:
         git:
